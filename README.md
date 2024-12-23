@@ -7,7 +7,7 @@
 
     // https://vitejs.dev/config/
     export default defineConfig({
-    plugins: [vue()],
-    base: './',
-    server: { port: 2000 }
+        plugins: [vue()],
+        base: './',
+       <font color='red'> server: { port: 2000 } </font>
     })
