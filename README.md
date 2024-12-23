@@ -2,7 +2,7 @@
 
 ## 1. 设置 vite 端口号: vite.config.js
 
-`
+``
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -12,4 +12,4 @@ plugins: [vue()],
 base: './',
 server: { port: 2000 }
 })
-`
+``
