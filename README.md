@@ -15,7 +15,7 @@
 ### 2. 用法
 
 -   下载项目
-    `git clone https://github.com/huangxulei/electronDemo.git`
+    `git clone https://github.com/laowus/electronDemo.git`
 -   初始化项目  
     `npm install`
 
