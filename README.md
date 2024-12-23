@@ -9,5 +9,22 @@
     export default defineConfig({
         plugins: [vue()],
         base: './',
-       <font color='red'> server: { port: 2000 } </font>
+        server: { port: 2000 } //这里更改vite 启动端口
     })
+
+## 2. 用法
+
+-   下载项目
+    `git clone https://github.com/huangxulei/electronDemo.git`
+-   初始化项目  
+    `npm install`
+
+-   开发模式运行  
+    `npm run dev`
+
+-   构建打包  
+    `npm run dist`
+
+    或者，分步执行  
+    `npm run build`  
+    `npm run pack`
